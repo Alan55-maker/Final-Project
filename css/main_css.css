@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    font-family: "Noto Serif TC", serif;
+    font-family: "Stardos Stencil", system-ui;
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+    clear: both;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+/* -------------------------------------------------------------------------------------------------- */
+header{
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+}
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-left{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 10%;
+    align-items: center;
+}
+.header-left-img{
+    width: 84px;
+    height: 36px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    object-fit: cover;
+}
+.header-middle{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    width:75%;
+}
+.header-right{
+    background-color:rgb(255, 255, 255);
+    padding-right: 43px;
+    width:15%;
+    display: flex;
+}
+.loginsignbtn{
+    display: flex;
+}
+.login{
+     width: 40px;
+     margin-right: 12px;
+}
+.sign{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(232, 117, 67);
+    align-items: center;
+    text-align:center;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 4px;
+    color: aliceblue;
+}
+.spacebar{
+    width: 1px;
+    height: 32px;
+    margin-left:16px;
+    margin-right:16px;
+    margin-top: 14px;
+    background-color: rgb(200, 200, 200);
+}
+.shoppingcart{
+    width:24px;
+    height:24px;
+    margin-right: 11px;
+}
+.profile{
+    width:24px;
+    height:24px;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.sidebar{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://placehold.co/1920x300);
+    background-position: center;
+    margin: auto;
+}
+.sidebar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.container{
+    width: 80%;
+    /* height: 2000px; */
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.side_vegetable{
+    margin-top: 40px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    line-height: 400px;
+}
+.side_vegetable_space{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(200, 200, 200);
+}
+.side_vegetable_img{
+    height: 400px;
+    background-image: url(https://placehold.co/1230x400);
+    background-position: center;
+}
+/* -------------------------------------------------------------------------------------------------- */
+.hotreceipe{
+    width: 2000px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: auto;
+    float: left;
+    display: flex;
+}
+.hot_receipe_space{
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    display: flex;
+    &::-webkit-scrollbar {
+        width: 4px;
+        height: 6px;
+    }
+    &::-webkit-scrollbar-button {
+        background: transparent;
+        border-radius: 4px;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgb(200,200,200);
+    }
+    &::-webkit-scrollbar-track {
+        box-shadow: transparent;
+    }
+}
+.hotreceipebookmark{
+    width: 270px;
+    height: 290px;
+    margin: 10px 19px;
+    float: left;
+    /* border: 1px solid #111111; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.hotreceipe-img{
+    width: 100%;
+    height: 230px;
+    margin: auto;
+    background-image: url(https://placehold.co/270x230);
+}
+.hotreceipe-introduction{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: large;
+}
+/* -------------------------------------------------------------------------------------------------- */
+footer{
+    width:100%;
+    height:300px;
+    background-color: rgb(255,255,255);
+}
+.footer-left{
+    /* width:20%; */
+    height: 300px;  
+    background-color: rgb(250,250,250);
+}
+.footer-left-logo{
+    width: 168px;
+    height: 72px;
+    margin-left:160px;
+    margin-top: 114px;
+}
+.footer-right{
+    background-color: rgb(250,250,250);
+}
+/* -------------------------------------------------------------------------------------------------- */

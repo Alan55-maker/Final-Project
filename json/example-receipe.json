@@ -1,0 +1,144 @@
+{
+    "recipes": [
+        {
+            "id": 101,
+            "name": "Pasta Primavera",
+            "views": 150,
+            "followers": 30,
+            "image": "101.jpg"
+        },
+        {
+            "id": 102,
+            "name": "Chicken Alfredo",
+            "views": 200,
+            "followers": 45,
+            "image": "102.jpg"
+        },
+        {
+            "id": 103,
+            "name": "Caesar Salad",
+            "views": 100,
+            "followers": 20,
+            "image": "103.jpg"
+        },
+        {
+            "id": 104,
+            "name": "Tomato Soup",
+            "views": 120,
+            "followers": 25,
+            "image": "104.jpg"
+        },
+        {
+            "id": 105,
+            "name": "Garlic Bread",
+            "views": 80,
+            "followers": 15,
+            "image": "105.jpg"
+        },
+        {
+            "id": 106,
+            "name": "Beef Stroganoff",
+            "views": 250,
+            "followers": 60,
+            "image": "106.jpg"
+        },
+        {
+            "id": 107,
+            "name": "Margarita Pizza",
+            "views": 300,
+            "followers": 70,
+            "image": "107.jpg"
+        },
+        {
+            "id": 108,
+            "name": "Grilled Cheese Sandwich",
+            "views": 220,
+            "followers": 55,
+            "image": "108.jpg"
+        },
+        {
+            "id": 109,
+            "name": "Apple Pie",
+            "views": 180,
+            "followers": 40,
+            "image": "109.jpg"
+        },
+        {
+            "id": 110,
+            "name": "Taco Salad",
+            "views": 270,
+            "followers": 65,
+            "image": "110.jpg"
+        },
+        {
+            "id": 111,
+            "name": "Fried Chicken",
+            "views": 310,
+            "followers": 80,
+            "image": "111.jpg"
+        },
+        {
+            "id": 112,
+            "name": "Spaghetti Carbonara",
+            "views": 230,
+            "followers": 50,
+            "image": "112.jpg"
+        },
+        {
+            "id": 113,
+            "name": "Chocolate Cake",
+            "views": 400,
+            "followers": 100,
+            "image": "113.jpg"
+        },
+        {
+            "id": 114,
+            "name": "Lemonade",
+            "views": 90,
+            "followers": 20,
+            "image": "114.jpg"
+        },
+        {
+            "id": 115,
+            "name": "Fish Tacos",
+            "views": 260,
+            "followers": 60,
+            "image": "115.jpg"
+        },
+        {
+            "id": 116,
+            "name": "Vegetable Stir Fry",
+            "views": 210,
+            "followers": 45,
+            "image": "116.jpg"
+        },
+        {
+            "id": 117,
+            "name": "Pancakes",
+            "views": 350,
+            "followers": 85,
+            "image": "117.jpg"
+        },
+        {
+            "id": 118,
+            "name": "BBQ Ribs",
+            "views": 280,
+            "followers": 70,
+            "image": "118.jpg"
+        },
+        {
+            "id": 119,
+            "name": "Cobb Salad",
+            "views": 200,
+            "followers": 50,
+            "image": "119.jpg"
+        },
+        {
+            "id": 120,
+            "name": "French Toast",
+            "views": 240,
+            "followers": 55,
+            "image": "120.jpg"
+        }
+    ]
+}
